@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>前端小课第三天</title>
+</head>
+<body>
+    <h1>今天讲解head中的内容</h1>
+    <ul>
+        <li>meta标签   定义基本的元数据信息</li>
+        <li>style标签  定义网页的样式
+            <ul>
+                <li>1. 在标签内直接写样式</li>
+                <li>2. 链接外部文件</li>
+                <li><p class="li-p">这里是自定义的style</p></li>
+            </ul>
+        </li>
+        <li>script标签   定义网页的脚本内容</li>
+        <ul>
+            <li>1. 在标签内直接写JS</li>
+            <li>2. 链接外部文件</li>
+        </ul>
+        <li>title标签    定义网页的标题</li>
+    </ul>
+    <div class="div-line"></div>
+    <h1>增加：练习position布局</h1>
+
+</body>
+<script>
+    window.onload = ()=>{ 
+        console.log('onload')
+    }
+</script>
+<style>
+.li-p{
+    background-color: red;
+    color: green;
+}
+.div-line{
+    width: 100%;
+    background-color: lightgray;
+    height: 1px;
+}
+</style>
+</html>
