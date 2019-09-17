@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    width: 100%;
+}
+
+.code-bg {
+    border-left: 3px solid #2a7ae2;
+    background-color: #eef;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+p {
+    border-left: 3px solid #2a7ae2;
+    background-color: #eef;
+    border-radius: 3px;
+    padding: 10px;
+}
