@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    
+}
+
+body {
+    margin: 0;
+}
+
+#nav-box {
+    background-color: #0077FF;
+    color: white;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+div > span {
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+    line-height: 40px;
+}
+
+div :first-child {
+    margin-left: 15px;
+}
+
+div :last-child {
+    margin-right: 15px;
+}
+
+#nav-box::-webkit-scrollbar {
+    display:none
+}
+
+#f {
+    color: lightcoral;
+}
+
+#button {
+    background-color: #0077FF;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 10px;
+    margin: 100px auto;
+    border-radius: 4px;
+    width: 200px;
+    color: white;
+    font: bold;
+}
+
