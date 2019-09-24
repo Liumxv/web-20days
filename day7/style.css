@@ -1,0 +1,38 @@
+span {
+    color: red;
+    display: block;
+}
+
+.first { 
+    font-weight: bold;
+    color: green;
+}
+
+#second {
+    color: blue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+[attribute="thrid"] {
+    color: yellow;
+}
+
+div p {
+    color:  red;
+}
+
+div > p {
+    font-weight: bold;
+}
+
+div + p {
+    background-color: beige;
+}
+
+div ~ p {
+    border: 1px solid black;
+}

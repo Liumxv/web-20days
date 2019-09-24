@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>day7 CSS中的选择器详解</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <span>标签选择器 span {color: red;}</span>
+    <div class="first">class 选择器 .first { font-weight:blod; color: green; }</div>
+    <div id="second">id 选择器 #id {color: blue;}</div>
+    <div>通用选择器 *{margin:0; padding:0;}</div>
+    <div attribute="thrid">属性选择器 [attribute="thrid"] {color: yellow;} </div>
+    <div>组合选择器
+        <p>div > p</p>
+        <p>div > p2</p>
+        <section>
+            <p>div > section > p</p>
+            <p>div > section > p</p>
+            <div>div > section > div</div>
+        </section>
+    </div>
+    <p>p</p>
+    <p>p</p>
+    <div>@规则在CSS中用于传递元数据、条件信息或其他描述性信息。它们以at符号（@）开头，后跟一个标识符来说明它是什么类型的规则，然后是某种类型的语法块，以分号（；）结尾。由标识符定义的每种类型的 at 规则都有其自己的内部语法和语义。</div>
+    <div>@media (min-width: 801px){body {margin:0 auto;}}</div>
+</body>
+</html>
