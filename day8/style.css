@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+
+.section-title {
+    color: aqua;
+    padding-bottom: 5px;
+    border-bottom: 2px solid aqua;
+    margin-left: 10px;
+}
+
+.num {
+    color: red;
+    font-weight: bold;
+}
+
+.des {
+    font-size: 13px;
+    padding: 10px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+.triangle {
+
+    width: 0;
+    /* width style */
+    border: 20px solid;
+    /* top [left, tight] bottom*/
+    border-color: #f30 transparent transparent;
+}
